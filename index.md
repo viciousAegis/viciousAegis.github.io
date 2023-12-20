@@ -3,6 +3,19 @@ layout: page
 title: ""
 ---
 
-## Welcome
+## hi!
 
-This is a test page. lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
+im akshit, also sometimes known as (vicious)a3gis. currently, i am into graph neural networks and mechanistic interpretability. i study computer science at [iiit hyderabad](https://www.iiit.ac.in/), and im a part of [the precog research group](https://precog.iiit.ac.in/), advised by dr. ponnurangam kumaraguru.
+
+besides the nerdy stuff, i love watching football (i love liverpool), playing video games, listening to music (mostly indie rock/pop), and occasionally reading sci-fi/dystopian/philosophical fiction specifically from 1960-1970s. i also love kittens!!
+
+## currently
+
+- trying to write a blog
+- plotting the greatest academic comeback known to mankind
+
+## where i work (right now)
+
+- (very soon!) research intern @ [adobe research](https://research.adobe.com/)
+- undergrad researcher @ [precog research group](https://precog.iiit.ac.in/)
+- research intern @ [subtl.ai](https://subtl.ai/)

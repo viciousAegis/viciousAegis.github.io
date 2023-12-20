@@ -16,8 +16,9 @@ minimal: true             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.md", title: Home}
-  - {file: "blog.html", title: Blog}
+  - {file: "index.md", title: home}
+  - {file: "blog.html", title: blog}
+  - {file: "assets/Resume.pdf", title: resume}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Twitter, icon: twitter, url: "https://twitter.com/akshitwt"}
