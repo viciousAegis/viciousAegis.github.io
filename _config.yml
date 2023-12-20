@@ -18,7 +18,7 @@ minimal: true             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.md", title: home, icon: font}
   - {file: "blog.html", title: blog, icon: feather}
-  - {file: "assets/Resume.pdf", title: resume, icon: glasses}
+  - {file: "./assets/Resume.pdf", title: resume, icon: glasses}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Twitter, icon: twitter, url: "https://twitter.com/akshitwt"}
