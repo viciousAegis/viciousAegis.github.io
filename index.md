@@ -3,7 +3,7 @@ layout: page
 title: "hi!"
 ---
 
-<img style="float: right;" src="./assets/gitPfp.png" width="300" height="300">
+<img style="float: right; margin: 0px 0px 15px 15px;"  src="./assets/gitPfp.png" width="200" height="200">
 
 im akshit, also sometimes known as (vicious)a3gis. currently, i am into graph neural networks and mechanistic interpretability. im a 3rd year computer science undergrad at [iiit hyderabad](https://www.iiit.ac.in/), and im part of [the precog research group](https://precog.iiit.ac.in/), advised by dr. ponnurangam kumaraguru.
 
