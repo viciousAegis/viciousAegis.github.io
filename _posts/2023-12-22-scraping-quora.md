@@ -20,7 +20,7 @@ aaloo
 baingan
 ghobi
 ```
-then run the scraper using `python3 run.py`. the scraped data will be saved in the `data` folder. the data is saved in json format, and the file name is the search term. so for the above example, the data will be saved in `data/aaloo.json`, `data/baingan.json` and `data/ghobi.json`. the data is saved in the following format:
+then run the scraper using `python3 run.py`. the scraped data will be saved in the `data` folder. the data is saved in json format, and the file name is the search term. so for the above example, the data will be saved in `data/aaloo.csv`, `data/baingan.csv` and `data/ghobi.csv`. the data is saved in the following format:
 ```
 {
     "post_text": "post text",
