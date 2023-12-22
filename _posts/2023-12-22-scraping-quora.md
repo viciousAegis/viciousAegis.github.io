@@ -6,9 +6,10 @@ layout: post
 recently for a project, i had to collect social media data. the problem with that is, most of the popular sites just hate giving out their data. what they hate even more is being scraped. so i had to find a site that was popular, had a lot of data, and was easy to scrape. and i ended up with quora, which is pretty much the perfect site for this. it has a lot of data, and it is pretty easy to scrape. so i wrote a scraper for it, which you can find [here](https://github.com/viciousAegis/QuoraScraper)
 
 ### what it does
-this scraper does two things:
+this scraper does a few things:
 - given a list of search terms, it can scrape posts related to those search terms from quora. the scraped information includes: the post text, post author, list of users who upvoted the post and list of users who commented on the post. you can pass the number of posts scraped for each search term as a command line argument. default is 50.
-- given a
+- (experimental) given a list of users, scrape their followers, following and their bio
+- (experimental) given a list of search terms, scrape the answers to those search terms. the scraped information includes: the answer text, answer author, etc.
 
 ### setting up
 the scraper is primarily written using selenium, and is very simple to setup. i use chromedriver to run the scraper on google chrome, which is fine for most cases, and unless you know what you are doing, you should not change that. if you clone the above repo you will find chromedriver already installed. you might need to use a different version of chromedriver depending on your chrome version, you can check that [here](https://chromedriver.chromium.org/downloads). the other needed requirements are listed in the requirements.txt file.
