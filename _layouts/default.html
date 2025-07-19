@@ -30,7 +30,7 @@
     .tab-headers {
       display: flex;
       border-bottom: 2px solid #e0e0e0;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
     }
     
     .tab-header {
@@ -113,7 +113,7 @@
           <div id="research" class="tab-content active">
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
               <tr>
-                <td style="padding:2.5%;width:100%;vertical-align:middle">
+                <td style="padding:0% 2.5%;width:100%;vertical-align:middle">
                   <p>
                     My current research focuses on understanding, evaluating and improving capabilities of AI systems (mainly large language models). My eventual goal is to help build AI that can reliably and autonomously perform complex tasks for extremely long periods of time, without human intervention.
                     <br>
@@ -127,7 +127,7 @@
               {% for cat in post.categories %}
               {% if cat == 'research' %}
               <tr>
-                <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                <td style="padding:0% 2.5%;width:25%;vertical-align:middle;min-width:120px">
                   {% if post.image %}
                   <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
                   {% endif %}
