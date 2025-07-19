@@ -13,13 +13,13 @@
 /* BASE RULES */
 /**************/
 a {
-  color: #1772d0;
+  color: #9370db;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
+  color: #dda0dd;
   text-decoration: none;
 }
 
@@ -53,8 +53,9 @@ h2 {
 h3 {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: normal;
   font-display: auto;
+  color: #9370db;
   padding: 0px;
   margin: 0px;
   display:inline; 
