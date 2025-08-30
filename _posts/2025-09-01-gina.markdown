@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "A Graph Talks, But Who's Listening? Rethinking Evaluations for Graph-Language Models"
+date:   2025-08-01 12:00:00 +00:00
+categories: research
+authors: "Soham Petkar*, Hari Aakash K*, Anirudh Vempati,  <strong>Akshit Sinha</strong>, Ponnurangam Kumarauguru, Chirag Agarwal"
+image: /images/clegr.png
+venue: "Preprint"
+code: https://github.com/rethinking-graph-language-evals/CLEGR
+arxiv: https://arxiv.org/abs/2508.20583
+---
+We show that current evaluation methods for Graph-Language Models can be solved by using only one of the modalities (graph or text), indicating that these evaluations may not effectively measure the intended capabilities of these models. We propose a new evaluation framework that requires models to integrate both graph and text information to perform well, and find that current methods injecting graph information into language models do not outperform soft-prompted baselines on this new benchmark.
