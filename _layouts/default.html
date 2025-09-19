@@ -69,6 +69,64 @@
       from { opacity: 0; transform: translateY(10px); }
       to { opacity: 1; transform: translateY(0); }
     }
+
+    /* Blog post styling */
+    .blog-post {
+      border-bottom: 1px solid #eee;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+    }
+    
+    .blog-post:last-child {
+      border-bottom: none;
+    }
+    
+    .blog-post:hover {
+      background-color: #fafafa;
+      padding: 15px;
+      border-radius: 8px;
+      margin: -15px;
+      margin-bottom: 5px;
+    }
+    
+    .blog-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+    
+    .blog-title a:hover {
+      color: #9370db !important;
+      transition: color 0.3s ease;
+    }
+    
+    .blog-date {
+      color: #666;
+      font-size: 14px;
+      margin: 5px 0;
+      font-style: italic;
+    }
+    
+    .blog-excerpt {
+      margin: 12px 0;
+      line-height: 1.6;
+      color: #444;
+    }
+    
+    .blog-link {
+      color: #9370db;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      transition: all 0.3s ease;
+    }
+    
+    .blog-link:hover {
+      color: #7a52cc;
+      text-decoration: underline;
+    }
   </style>
 
 </head>
@@ -109,6 +167,7 @@
           <!-- Tab Headers -->
           <div class="tab-headers">
             <button class="tab-header active" onclick="switchTab(event, 'research')">Research</button>
+            <button class="tab-header" onclick="switchTab(event, 'blogs')">Blogs</button>
           </div>
 
           <!-- Research Tab Content -->
@@ -170,6 +229,39 @@
                   {% endif %}
                   <p></p>
                   {{ post.excerpt }}
+                </td>
+              </tr>
+              {% endif %}
+              {% endfor %}
+              {% endfor %}
+            </table>
+          </div>
+
+          <!-- Blogs Tab Content -->
+          <div id="blogs" class="tab-content">
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tr>
+                <td style="padding:0% 2.5%;width:100%;vertical-align:middle">
+                  <p>
+                    I like sharing my thoughts on a variety of topics on my <a href="https://substack.com/@akshit2003">Substack blog</a>. Below are all my blog posts.
+                  </p>
+                </td>
+              </tr>
+            </table>
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              {% for post in site.posts %}
+              {% for cat in post.categories %}
+              {% if cat == 'blog' %}
+              <tr>
+                <td style="padding:2.5%;width:100%;vertical-align:middle">
+                  <div class="blog-post">
+                    <div class="blog-title">
+                      <a href="{{post.link}}" target="_blank" style="text-decoration: none; color: #2c3e50;">{{post.title}}</a>
+                    </div>
+                    <div class="blog-date">{{ post.date | date: "%B %d, %Y" }}</div>
+                    <div class="blog-excerpt">{{ post.excerpt }}</div>
+                    <a href="{{post.link}}" target="_blank" class="blog-link">Read on Substack →</a>
+                  </div>
                 </td>
               </tr>
               {% endif %}
