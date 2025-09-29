@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Thoughts on AI Alignment and Long-term Safety"
+title: "How to write good code (for ai research)"
 date: 2025-09-18
 categories: [blog]
 link: "https://substack.com/@akshit2003/p-173955838"
