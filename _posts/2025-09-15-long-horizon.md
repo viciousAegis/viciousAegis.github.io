@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs"
-date:   2025-08-01 12:00:00 +00:00
+date:   2026-04-01 12:00:00 +00:00
 categories: research
 authors: "<strong>Akshit Sinha</strong>*, Arvindh Arun*, Shashwat Goel*, Steffen Staab, Jonas Geiping"
 image: /images/lhs.png
-venue: "14th International Conference on Learning Representations (ICLR 2026)"
+venue: "14th International Conference on Learning Representations (ICLR)"
 code: https://github.com/long-horizon-execution/measuring-execution
 arxiv: https://arxiv.org/abs/2509.09677
 ---
