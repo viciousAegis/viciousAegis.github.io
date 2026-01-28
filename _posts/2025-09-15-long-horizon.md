@@ -5,7 +5,7 @@ date:   2025-08-01 12:00:00 +00:00
 categories: research
 authors: "<strong>Akshit Sinha</strong>*, Arvindh Arun*, Shashwat Goel*, Steffen Staab, Jonas Geiping"
 image: /images/lhs.png
-venue: "Preprint"
+venue: "14th International Conference on Learning Representations (ICLR 2026)"
 code: https://github.com/long-horizon-execution/measuring-execution
 arxiv: https://arxiv.org/abs/2509.09677
 ---
